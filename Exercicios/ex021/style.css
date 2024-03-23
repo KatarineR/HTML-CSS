@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+body {
+  background-color: #E7C69E;
+  margin: auto;
+  font-family: 'Rajdhani';
+}
+
+.sobre-mim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-sobre-mim {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 20px;
+  color: #804324;
+}
+
+.titulo-sobre-mim {
+  font-family: 'Belleza', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  margin-bottom: 0%;
+}
+
+.texto-sobre-mim {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.quadro {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 20px;
+  margin-bottom: -3%;
+}
+
+.foto {
+  width: 100%;
+  height: auto;
+}
+
+.contato {
+  position: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #804324;
+  color: #E7C69E;
+}
+  
+.title {
+  text-align: center;
+  margin-bottom: -30px;
+}
+  
+.informações {
+  display: flex;
+  align-items: center;
+}
+  
+.image {
+  margin-right: 5px;
+  margin-left: 20px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-top: 6px;
+}
+
+.text {
+  text-align: center;
+  font-size: 22px;
+}
+  
+.desenvolvedores {
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.title-text {
+  font-family: 'Belleza', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+  
+a {
+  color: #E7C69E;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: overline;
+  color: #e7ba9e;
+}
+
+@media (min-width: 768px) {
+  .sobre-mim {
+    flex-direction: row;
+  }
+
+  .box-sobre-mim {
+    margin-right: 50px;
+    margin-top: -65px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .box-sobre-mim {
+    width: 500px;
+    margin-right: 100px;
+  }
+
+  .quadro {
+    margin-left: 100px;
+  }
+}
